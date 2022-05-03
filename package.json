@@ -1,0 +1,14 @@
+{
+  "name": "catclub",
+  "version": "1.0.0",
+  "description": "Cat Club. Go to Github for context: https://github.com/Tommeeboi/CatClub",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./index.js"
+  },
+  "author": "Tommeeboi",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

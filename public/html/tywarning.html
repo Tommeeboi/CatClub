@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>why.</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .ok {
+            font-size: 50px;
+        }
+
+        #smolo {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="ok">
+        I've warned you. Go ahead at your own risk.
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="smolo">
+        You will be redirected in <span id="numbuh">NUM</span> <span id="sec">seconds</span>.
+        </div>
+        <script type="text/javascript">
+            // I know this code sucks, it was incredibly rushed
+            const numbuh = document.getElementById("numbuh");
+            const sec = document.getElementById("sec");
+            let timer = 5;
+            numbuh.innerHTML = timer;
+            // 4
+            setTimeout(() => {
+                timer -= 1;
+                numbuh.innerHTML = timer;
+            }, 1000);
+            // 3
+            setTimeout(() => {
+                timer -= 1;
+                numbuh.innerHTML = timer;
+            }, 2000);
+            // 2
+            setTimeout(() => {
+                timer -= 1;
+                numbuh.innerHTML = timer;
+            }, 3000);
+            // 1
+            setTimeout(() => {
+                timer -= 1;
+                numbuh.innerHTML = timer;
+                sec.innerHTML = "second";
+            }, 4000)
+            // blast off
+            setTimeout(() => {
+                timer -= 1;
+                numbuh.innerHTML = timer;
+                sec.innerHTML = "seconds";
+                window.location.replace("https://ty.com");
+            }, 5000);
+        </script>
+</body>
+</html>

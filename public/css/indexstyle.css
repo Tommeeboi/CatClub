@@ -1,0 +1,284 @@
+body {
+    background-color: #ff69b4;
+    font-family: 'Fredoka', 'Montserrat', sans-serif;
+}
+
+#screenNaughty {
+    display: none;
+}
+
+.naughtyBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    border: 5px solid #000000;
+}
+
+.h {
+    font-size: 60px;
+}
+
+.ahh {
+    font-size: 25px;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.error {
+    font-size: 30px;
+}
+
+.homeButton {
+    display: block;
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+    background-color: rgb(205, 148, 43);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    transition: background-color 250ms 100ms;
+    cursor: pointer;
+    margin: 0px 25px;
+}
+
+#home:hover {
+    background-color: rgb(255, 201, 99);
+}
+
+#home:active {
+    background-color: #774f12;
+}
+
+.titol {
+    font-size: 150px;
+    text-align: center;
+}
+
+.membuh {
+    font-size: 50px;
+    text-align: center;
+}
+
+.memb {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+td {
+    border: 5px solid #000000;
+    padding: 50px;
+    width: 300px;
+}
+
+.verticol1 {
+    height: 500px;
+    width: auto;
+}
+
+.desc {
+    font-size: 50px;
+    text-align: center;
+}
+
+.smolDesc {
+    text-align: center;
+    font-size: 25px;
+}
+
+.memberSeper {
+    background-color: #000000;
+    border: none;
+    height: 5px;
+}
+
+/* there is a separate ruleset for each member cuz i tried something once but it didn't work, but i decided to keep copying the same ruleset as a legacy */
+
+.juniplush {
+    width: 275px;
+    display: inline-block;
+}
+
+.glammer {
+    width: 275px;
+    display: inline-block;
+}
+
+.kiki {
+    width: 275px;
+    display: inline-block;
+}
+
+.livvy {
+    width: 275px;
+    display: inline-block;
+}
+
+.heather {
+    width: 275px;
+    display: inline-block;
+}
+
+.dotty {
+    width: 275px;
+    display: inline-block;
+}
+
+.reagan {
+    width: 275px;
+    display: inline-block;
+}
+
+.tiggy {
+    width: 275px;
+    display: inline-block;
+}
+
+.buckwheat {
+    width: 275px;
+    display: inline-block;
+}
+
+#memberList {
+    text-align: center;
+}
+
+.horozontol {
+    width: 800px;
+    height: auto;
+}
+
+.noBorder {
+    border: none;
+    padding: 0px;
+    width: 50%;
+}
+
+.bond {
+    font-size: 30px;
+    text-align: center;
+}
+
+.copyright {
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.proud {
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline;
+}
+
+@media screen and (max-width: 1210px) {
+    td {
+        padding: 35px;
+    }
+
+    .verticol1 {
+        height: 350px;
+        width: auto;
+    }
+
+    .membuh {
+        font-size: 35px;
+    }
+
+    .smolDesc {
+        font-size: 18px;
+    }
+
+    .bond {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .bond {
+        font-size: 18px;
+    }
+
+    .horozontol {
+        width: 650px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .tooBig {
+        display: none;
+    }
+
+    .titol {
+        font-size: 100px;
+    }
+
+    #home {
+        width: 150px;
+        height: 32px;
+        font-size: 15px;
+        border: 4px solid #000000;
+    }
+
+    .horozontol {
+        width: 450px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 875px) {
+    td {
+        padding: 25px;
+    }
+
+    .verticol1 {
+        height: 250px;
+        width: auto;
+    }
+
+    .membuh {
+        font-size: 25px;
+    }
+
+    .smolDesc {
+        font-size: 15px;
+    }
+
+    .titol {
+        font-size: 70px;
+    }
+
+    #home {
+        width: 100px;
+        height: 25px;
+        font-size: 10px;
+        border: 3px solid #000000;
+    }
+
+    .horozontol {
+        width: 425px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #screenGoodBoi {
+        display: none;
+    }
+
+    #screenNaughty {
+        display: block;
+    }
+}

@@ -1,0 +1,101 @@
+body {
+    background-color: #d34e90;
+    font-family: 'Fredoka', 'Montserrat', sans-serif;
+}
+
+span {
+    font-weight: 700;
+    cursor: help;
+}
+
+#titol {
+    font-size: 150px;
+    text-align: center;
+    display: block;
+}
+
+.johnny {
+    font-size: 50px;
+    text-align: center;
+}
+
+.homeButton {
+    display: block;
+    text-align: center;
+}
+
+#home {
+    text-align: center;
+    background-color: rgb(205, 148, 43);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    transition: background-color 250ms 100ms;
+    cursor: pointer;
+}
+
+#home:hover {
+    background-color: rgb(255, 201, 99);
+}
+
+#home:active {
+    background-color: #774f12;
+}
+
+.para1 {
+    text-align: center;
+}
+
+.vert {
+    height: 500px;
+    width: auto;
+}
+
+.ultraRare {
+    font-size: 35px;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.description {
+    text-align: center;
+    font-size: 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.funHeader {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.footerSep {
+    background-color: #000000;
+    border: none;
+    height: 5px;
+}
+
+.annoying {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+    color: #000000;
+}
+
+.copyright {
+    font-size: 25px;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.proud {
+    float: right;
+    font-size: 25px;
+    font-weight: 700;
+    display: inline;
+}
