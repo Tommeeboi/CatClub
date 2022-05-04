@@ -5,11 +5,11 @@ To run Cat Club locally:
 3. Click the green Code button, then click 'Download ZIP'
 4. Go to your downloads (where the new zip folder is located)
 5. Unzip it by right-clicking on the zip and clicking 'Extract All'
-6. Close the File Explorer once you've extracted Cat Club
-7. Open your Command Prompt by searching 'cmd' in your search icon thingy (don't run as administrator)
-8. Type 'cd Downloads/CatClub-master/CatClub-master'
+6. Go into the unzipped copy, and go to the folder with package.json and index.js inside
+7. Click on where your current path is, and replace the text with 'cmd'
+![Typing cmd](https://github.com/Tommeeboi/CatClub/blob/master/itworked.png?raw=true)
+8. If you did it correctly, it should bring up the command prompt
 9. Type 'npm i'
 10. Type 'node index'
 
 To stop running it, either close cmd or go into it and hit Ctrl+Cat
-I know there are other more simple ways to open the terminal in the correct folder but idk how to explain them without a picture
