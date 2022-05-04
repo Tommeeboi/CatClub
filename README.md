@@ -17,7 +17,7 @@ This is a website I made for my sister (and for my boredom), called Cat Club. It
 ## How do I run this
 To run this locally for some reason, do this.
 
-If you need a more detailed explanation, go to https://youtu.be/videolink
+If you need a more detailed explanation, go to tutorial.txt
 
 1. Install Node.js if you haven't already
 2. Download this repository (as a zip)
