@@ -5,11 +5,11 @@
 3. Click the green Code button, then click 'Download ZIP'
 4. Go to your downloads (where the new zip folder is located)
 5. Unzip it by right-clicking on the zip and clicking 'Extract All'
-6. Go into the unzipped copy, and go to the folder with package.json and index.js inside
-7. Click on where your current path is, and replace the text with 'cmd'
+6. Go into the unzipped copy, and navigate to the folder with package.json and index.js inside
+7. Click on where your current path is, and replace the text with 'cmd', then hit enter
 ![Typing cmd](https://github.com/Tommeeboi/CatClub/blob/master/itworked.png?raw=true)
 8. If you did it correctly, it should bring up the command prompt
-9. Type 'npm i'
-10. Type 'node index'
+9. Type `npm i`
+10. Type `node index`
 
-To stop running it, either close cmd or go into it and hit Ctrl+Cat
+To stop running it, either close cmd or go into it and hit Ctrl+C
