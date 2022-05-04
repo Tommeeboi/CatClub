@@ -1,4 +1,4 @@
-To run Cat Club locally:
+# To run Cat Club locally:
 
 1. Install Node.js at https://nodejs.org
 2. Once you've done that, come back to the Cat Club Github (that rhymes :0)
