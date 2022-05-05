@@ -9,7 +9,7 @@
 7. Click on where your current path is, and replace the text with 'cmd', then hit enter
 ![Typing cmd](https://github.com/Tommeeboi/CatClub/blob/master/itworked.png?raw=true)
 8. If you did it correctly, it should bring up the command prompt
-9. Type `npm i`
-10. Type `node index`
+9. Type `npm i` (then hit enter)
+10. Type `node index` (then hit enter)
 
 To stop running it, either close cmd or go into it and hit Ctrl+C
