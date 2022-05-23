@@ -36,6 +36,9 @@ app.get("/tiggy", function(req, res) { res.status(200).sendFile(__dirname + "/pu
 app.get("/comingsoon", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/comingsoon.html") })
 app.get("/credits", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/credits.html") })
 app.get("/buckwheat", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/buckwheat.html") })
+app.get("/mai", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/mai.html") })
+app.get("/asia", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/asia.html") })
+app.get("/pandora", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/pandora.html") })
 app.get("/ty", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/tywarning.html") })
 app.get("/", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/index.html") })
 

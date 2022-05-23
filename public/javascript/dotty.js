@@ -27,6 +27,7 @@ function blueUp() {
 }
 
 // Now, don't ask me about what's going on here cuz idk, I just build the basic function, then spent hours experimenting until it finally just about worked
+// #bestprogrammer #blessed #omglol
 function test() {
         if (red < 256 && redAllowed === 0) {
             redUp();

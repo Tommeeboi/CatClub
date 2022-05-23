@@ -51,3 +51,14 @@ A. Of course! If you want to edit the site and fix my code, just download this r
 Q. Why you so bad at code
 
 A. I am not, I just code in a unique way (I totally just suck)
+
+## Releases
+Beta v1.0: The first beta. It had five members, with only two of them with pages!
+
+Beta v1.1: Almost completed, just two more member pages and the credits page left to do.
+
+v1.0: Initial Release.
+
+v1.0.1: Typo fixes.
+
+v1.1 (LATEST): THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
