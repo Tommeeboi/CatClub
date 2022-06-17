@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/merchstyle.css">
+    <title>Cat Club - Merch</title>
+    <!-- Font Import, this time I did it properly for both of the fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <!-- Howler.js library, for playing Abyss Of Darkness song >:) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.min.js"></script>
+</head>
+<body>
+    <div class="mainBody">
+    <br>
+    <header>
+        <div class="buttun">
+            <a href="/"><button class="home">Home</button></a>
+        </div>
+        <div class="titol">Cat Club</div>
+        <div class="merchuh">Merch Shop</div>
+        <div id="smol">((RANDOM))</div>
+        <br>
+        <br>
+        <div class="sorry">
+        <button class="home" id="currencyButton">Not Your Currency?</button>
+        </div>
+    </header>
+    <br>
+    <br>
+    <hr class="sep">
+    <br>
+    <br>
+    <div id="idk">
+    <table class="itemTable">
+        <tr>
+            <td>
+    <div class="item">
+    <img class="firstVisible" src="../catclubassets/merch/rainBow.jpg" alt="Rainbow Bow" loading="lazy">
+    <br>
+    Kiki RainBow
+    <br>
+    <span id="kkrbPrice">£2.99</span>
+    </div>
+    </td>
+    <td>
+        <div class="item">
+            <img class="firstVisible" src="../catclubassets/merch/ccc.jpg" alt="Cat Club Letters" loading="lazy">
+            <br>
+            Cat Club Letters
+            <br>
+            <span id="cclPrice">£1.99</span>
+        </div>
+    </td>
+    <td>
+        <div class="item">
+            <img src="../catclubassets/merch/blackPink.jpg" alt="Black and Pink Wristband" class="firstVisible" loading="lazy">
+            <br>
+            Cat Club Wristbands
+            <br>
+            <span id="ccwPrice">£0.49</span>
+        </div>
+    </td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    <!-- popup -->
+    <div id="popBG">
+    <div id="currencyPopup">
+        Not Your Currency?
+        <br>
+        <div class="smol">
+            Please select a currency from the available options:
+        </div>
+        <div class="currencyBar">
+            <button class="miniHome" id="pound">Pounds</button>
+            <button class="miniHome" title="THE UNITED STATES OF AMERICA" id="usd">Dollars (US)</button>
+            <button class="miniHome" title="Canada" id="cad">Dollars (CA)</button>
+            <br>
+            <button class="miniHome" title="Australia" id="aod">Dollars (AU)</button>
+            <button class="miniHome" id="euro">Euros</button>
+            <button class="miniHome" id="other">Other</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="../javascript/merchRandom.js"></script>
+<script type="text/javascript" src="../javascript/currency.js"></script>
+</html>

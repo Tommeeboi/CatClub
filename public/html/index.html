@@ -13,9 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
-<link rel="canonical" href="https://www.tommeeboi.co.uk/catclub">
+<link rel="canonical" href="https://www.tommeeboi.com/catclub">
 <link name="description" content="The official website for the Cat Club! By Tommeeboi and Emma1000. This is a complete joke">
 <link itemprop="description" content="The official website for the Cat Club! By Tommeeboi and Emma1000. This is a complete joke">
+<script async type="text/javascript" src="../javascript/dottyPopup.js"></script>
     </head>
     <body>
         <div id="screenNaughty">
@@ -34,6 +35,7 @@
         <header>
         <div class="homeButton">
             <a href="/credits" class="homeAnchor"><button id="home">Credits</button></a>
+            <!-- <a href="/merch" class="homeAnchor"><button id="home"><span class="new">(NEW)</span> Merch</button></a> -->
             <a href="https://www.github.com/Tommeeboi/CatClub" class="homeAnchor" target="_blank" rel="noopener"><button id="home">Github</button></a>
             </div>
             <!-- Juni, Glam, Ki, Liv, Heat, Dot, Reagan, Tig, Buck -->
@@ -87,7 +89,7 @@
                     </td>
                     <td>
                         <div class="membuh">Dotty</div>
-                        <a href="/dotty"><img class="verticol1" loading="lazy" src="../catclubassets/dot.jpg"></a>
+                        <a id="warn" style="cursor: pointer;"><img class="verticol1" loading="lazy" src="../catclubassets/dot.jpg"></a>
                         <div class="smolDesc">She may be shy, but her colours are bright!</div>
                     </td>
                     </tr>
@@ -155,6 +157,22 @@
             <div class="copyright">&copy; Tommeeboi 2022</div>
             <div class="proud">Proudly Owned By Tommeeboi</div>
         </footer>
+        <div id="popBG">
+            <div id="epilepsyPopup">
+                WARNING!
+                <br>
+                <div class="smol">
+                    Dotty's page has a rainbow background! If you have epilepsy, you might wanna stay away from her page...
+                    <br>
+                    <br>
+                    <button class="smallHome" id="heh">Don't Show Me Again (OFF)</button>
+                </div>
+                <div class="buttonBar">
+                    <button class="miniHome" id="cancel">Cancel</button>
+                    <button class="miniHome" id="proceed">Proceed</button>
+                </div>
+            </div>
+        </div>
         </div>
     </body>
     <script type="text/javascript">

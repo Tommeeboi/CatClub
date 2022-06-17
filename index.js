@@ -40,6 +40,7 @@ app.get("/mai", function(req, res) { res.status(200).sendFile(__dirname + "/publ
 app.get("/asia", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/asia.html") })
 app.get("/pandora", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/pandora.html") })
 app.get("/ty", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/tywarning.html") })
+app.get("/merch", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/merch.html") })
 app.get("/", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/index.html") })
 
 // Port Variable

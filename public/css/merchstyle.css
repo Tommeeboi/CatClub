@@ -1,0 +1,129 @@
+body {
+    background-color: #ff69b4;
+    font-family: 'Fredoka', 'Montserrat', sans-serif;
+}
+
+.titol {
+    font-size: 150px;
+    text-align: center;
+}
+
+.merchuh {
+    font-size: 50px;
+    text-align: center;
+}
+
+.buttun {
+    text-align: center;
+}
+
+.miniHome {
+    text-align: center;
+    background-color: initial;
+    margin: 0px 5px;
+    width: 150px;
+    height: 35px;
+    border: 2.5px solid #000;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 350;
+    font-family: 'Fredoka', sans-serif;
+    cursor: pointer;
+}
+
+.home {
+    text-align: center;
+    background-color: rgb(205, 148, 43);
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Fredoka', sans-serif;
+    transition: background-color 250ms 100ms;
+    cursor: pointer;
+    margin: 0px 25px;
+}
+
+.home:hover {
+    background-color: rgb(255, 201, 99);
+}
+
+.home:active {
+    background-color: #774f12;
+}
+
+.sep {
+    background-color: #000000;
+    border: none;
+    height: 5px;
+}
+
+.sorry {
+    text-align: center;
+}
+
+#smol {
+    font-size: 25px;
+    text-align: center;
+}
+
+.firstVisible {
+    height: 450px;
+    width: auto;
+}
+
+/* this code is absolute garbage btw, i am so sorry */
+
+.item {
+    font-size: 30px;
+}
+
+.itemTable {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+td {
+    border: none;
+    padding: 25px;
+}
+
+#idk {
+    text-align: center;
+}
+
+#popBG {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+#currencyPopup {
+    /* code to make the popup in the centre of your screen (center is spelt centre in britain :) */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* now just general styling */
+    background-color: hsl(34, 57%, 60%);
+    border: 5px solid #000;
+    border-radius: 15px;
+    font-size: 50px;
+    text-align: center;
+    width: 50%;
+    height: 235px;
+    padding: 25px;
+    z-index: 2;
+    opacity: 1;
+}
+
+.smol {
+    font-size: 25px;
+}

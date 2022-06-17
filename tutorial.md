@@ -1,5 +1,7 @@
 # To run Cat Club locally:
 
+WARNING: This is a tutorial for Windows Users.
+
 1. Install Node.js at https://nodejs.org
 2. Once you've done that, come back to the Cat Club Github (that rhymes :0)
 3. Click the green Code button, then click 'Download ZIP'
@@ -9,7 +11,13 @@
 7. Click on where your current path is, and replace the text with 'cmd', then hit enter
 ![Typing cmd](https://github.com/Tommeeboi/CatClub/blob/master/itworked.png?raw=true)
 8. If you did it correctly, it should bring up the command prompt
-9. Type `npm i` (then hit enter)
-10. Type `node index` (then hit enter)
+9. Type `npm i` in the command prompt (then hit enter)
+10. Type `node index` in the command prompt(then hit enter)
 
 To stop running it, either close cmd or go into it and hit Ctrl+C
+
+If you're on Mac, instead of typing cmd, you'll have to open your terminal and navigate to the main folder with the `cd` command.
+
+You might be able to open the terminal in the folder, but idk because I don't have a Mac.
+
+(Also, unzipping the folder might be different aswell)

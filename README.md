@@ -61,4 +61,6 @@ v1.0: Initial Release.
 
 v1.0.1: Typo fixes.
 
-v1.1 (LATEST): THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
+v1.1: THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
+
+v1.1.1 (LATEST): New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.2 hints in the code, just saying... (this update changed/added 36 files)
