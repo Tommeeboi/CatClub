@@ -76,9 +76,11 @@ v1.2: Added a system that detects if your current version of Cat Club is outdate
 
 v1.2.1: I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD
 
-v1.2.2 (LATEST): List again
+v1.2.2: List again
 
 1. Fixed update popup only appearing about a quarter of the times you load the page. Bugged due to updater.js loading before jQuery
 2. Fixed Dotty's page, you can now enter it every attempt. Bugged due to jQuery confusing the popup code lmao
 3. Template readme file in updater.js is no longer assigned to a variable named "hateMyself" xD
 4. 1.2 changelog now has correct grammar :skull:
+
+v1.2.3 (LATEST): Fixed nothing, just deleted package-lock.json
