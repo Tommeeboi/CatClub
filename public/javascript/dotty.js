@@ -70,7 +70,7 @@ function test() {
         // This also means that to create an infinite loop without your computer dieing, make a function that runs itself every time after a certain delay. (I know, I'm so cool)
     setTimeout(() => {
         test();
-    }, 1)
+    }, 2)
 }
 
 // This line of code only runs once, and it just starts up the function. Once the function is run once, it will keep on running itself forever XD

@@ -247,6 +247,7 @@ td {
     padding: 25px;
     z-index: 2;
     opacity: 1;
+    animation: boig 250ms;
 }
 
 .smol {
@@ -372,3 +373,18 @@ td {
         display: block;
     }
 }
+
+@keyframes boig {
+    0% {
+        transform: scale(0) translate(-50%, -50%);
+        transform-origin:left top
+    }
+    75% {
+        transform: scale(1.075) translate(-50%, -50%);
+        transform-origin:left top
+    }
+    100% {
+        transform: scale(1) translate(-50%, -50%);
+        transform-origin:left top
+    }
+  }
