@@ -72,4 +72,6 @@ v1.1.2: I actually need a list lmao
 3. Heather's parents are no longer dead.
 4. Dotty's popup is now animated (credit to colon for the animation xd)
 
-v1.2 (LATEST): Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
+v1.2: Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
+
+v1.2.1 (LATEST): I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD
