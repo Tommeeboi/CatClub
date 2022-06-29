@@ -1,4 +1,9 @@
-# Cat Club
+const popupp = document.getElementById("popBG2");
+const cancoll = document.getElementById("cancel2");
+const procedd = document.getElementById("proceed2");
+const popBoxx = document.getElementById("updatePopup");
+
+const hateMyself = `# Cat Club
 This. My biggest project.
 
 I'm kinda miffed that this is my biggest project, but oh well.
@@ -23,17 +28,17 @@ If you need a more detailed explanation, go to tutorial.md
 2. Download this repository (as a zip)
 3. Unzip it
 4. Open cmd/shell/bash in the website's directory (the folder with package.json and index.js inside)
-5. Type `npm i` to generate package-lock.json
-6. Type `node index` to run index.js (the node server)
+5. Type \`npm i\` to generate package-lock.json
+6. Type \`node index\` to run index.js (the node server)
 7. Cat Club is now running on http://localhost:9000
 
 To change the port (the number at the end of the link):
 
 1. Open index.js (you can do it with notepad if you want)
-2. Find `const port = 9000`
+2. Find \`const port = 9000\`
 3. Change the number to whatever you want (anything from 1000 to 9999)
 
-If you run the site successfully, a message will appear in the terminal saying `Success! Cat Club is running on http://localhost:9000 :)` (The 9000 may be different depending on what port you choose)
+If you run the site successfully, a message will appear in the terminal saying \`Success! Cat Club is running on http://localhost:9000 :)\` (The 9000 may be different depending on what port you choose)
 
 ## FAQ
 Q. Can I run Cat Club without Node.js?
@@ -63,7 +68,7 @@ v1.0.1: Typo fixes.
 
 v1.1: THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
 
-v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.3 hints in the code, just saying... (this update changed/added 36 files)
+v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.2 hints in the code, just saying... (this update changed/added 36 files)
 
 v1.1.2: I actually need a list lmao
 
@@ -72,4 +77,20 @@ v1.1.2: I actually need a list lmao
 3. Heather's parents are no longer dead.
 4. Dotty's popup is now animated (credit to colon for the animation xd)
 
-v1.2 (LATEST): Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
+v1.2 (LATEST): Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD`
+
+$.ajax({
+    url: 'https://raw.githubusercontent.com/Tommeeboi/CatClub/master/README.md',
+    type: 'GET',
+    success: function(res) {
+       let data = $.parseHTML(res);
+
+       if (data[0].data !== hateMyself) {
+        document.getElementById("popBG2").style.display = "block";
+
+        document.getElementById("proceed2").onclick = function() {
+            document.getElementById("popBG2").style.display = "none";
+        }
+       }
+    }
+  });
