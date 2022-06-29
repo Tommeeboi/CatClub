@@ -3,7 +3,7 @@ const cancoll = document.getElementById("cancel2");
 const procedd = document.getElementById("proceed2");
 const popBoxx = document.getElementById("updatePopup");
 
-const hateMyself = `# Cat Club
+const loveMyself = `# Cat Club
 This. My biggest project.
 
 I'm kinda miffed that this is my biggest project, but oh well.
@@ -68,7 +68,7 @@ v1.0.1: Typo fixes.
 
 v1.1: THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
 
-v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.2 hints in the code, just saying... (this update changed/added 36 files)
+v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.3 hints in the code, just saying... (this update changed/added 36 files)
 
 v1.1.2: I actually need a list lmao
 
@@ -77,9 +77,16 @@ v1.1.2: I actually need a list lmao
 3. Heather's parents are no longer dead.
 4. Dotty's popup is now animated (credit to colon for the animation xd)
 
-v1.2: Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
+v1.2: Added a system that detects if your current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
 
-v1.2.1 (LATEST): I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD`
+v1.2.1: I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD
+
+v1.2.2 (LATEST): List again
+
+1. Fixed update popup only appearing about a quarter of the times you load the page. Bugged due to updater.js loading before jQuery
+2. Fixed Dotty's page, you can now enter it every attempt. Bugged due to jQuery confusing the popup code lmao
+3. Template readme file in updater.js is no longer assigned to a variable named "hateMyself" xD
+4. 1.2 changelog now has correct grammar :skull:`
 
 $.ajax({
     url: 'https://raw.githubusercontent.com/Tommeeboi/CatClub/master/README.md',
@@ -87,7 +94,7 @@ $.ajax({
     success: function(res) {
        let data = $.parseHTML(res);
 
-       if (data[0].data !== hateMyself) {
+       if (data[0].data !== loveMyself) {
         document.getElementById("popBG2").style.display = "block";
 
         document.getElementById("proceed2").onclick = function() {

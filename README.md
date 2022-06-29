@@ -72,6 +72,13 @@ v1.1.2: I actually need a list lmao
 3. Heather's parents are no longer dead.
 4. Dotty's popup is now animated (credit to colon for the animation xd)
 
-v1.2: Added a system that detects if you're current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
+v1.2: Added a system that detects if your current version of Cat Club is outdated. If it does, it gives you a popup. I've decided to make the upcoming section (look in the code ;) of the website a 1.3 thing instead, because I've added so many new features that it basically counts as a whole update xD
 
-v1.2.1 (LATEST): I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD
+v1.2.1: I LEAKED POTENTIALLY PRIVATE DATA (but do not worry, i fixed it.) 1.2 lasted for 5 minutes xD
+
+v1.2.2 (LATEST): List again
+
+1. Fixed update popup only appearing about a quarter of the times you load the page. Bugged due to updater.js loading before jQuery
+2. Fixed Dotty's page, you can now enter it every attempt. Bugged due to jQuery confusing the popup code lmao
+3. Template readme file in updater.js is no longer assigned to a variable named "hateMyself" xD
+4. 1.2 changelog now has correct grammar :skull:
