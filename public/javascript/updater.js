@@ -88,7 +88,9 @@ v1.2.2: List again
 3. Template readme file in updater.js is no longer assigned to a variable named "hateMyself" xD
 4. 1.2 changelog now has correct grammar :skull:
 
-v1.2.3 (LATEST): Fixed nothing, just deleted package-lock.json`
+v1.2.3: Fixed nothing, just deleted package-lock.json
+
+v1.2.4 (LATEST): Updated LICENSE.txt, it's now marked by Github as the MIT License instead of "Other"`
 
 $.ajax({
     url: 'https://raw.githubusercontent.com/Tommeeboi/CatClub/master/README.md',
