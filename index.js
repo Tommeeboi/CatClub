@@ -34,6 +34,7 @@ app.get("/livvie", function(req, res) { res.status(200).sendFile(__dirname + "/p
 app.get("/reagan", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/reagan.html") })
 app.get("/tiggy", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/tiggy.html") })
 app.get("/comingsoon", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/comingsoon.html") })
+app.get("/giselle", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/giselle.html") })
 app.get("/credits", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/credits.html") })
 app.get("/buckwheat", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/buckwheat.html") })
 app.get("/mai", function(req, res) { res.status(200).sendFile(__dirname + "/public/html/mai.html") })

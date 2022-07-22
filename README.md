@@ -63,7 +63,7 @@ v1.0.1: Typo fixes.
 
 v1.1: THREE new members: Mai, Asia, and Pandora! Also stated that I'm the owner of Juniplush in her page and the credits. The credits page now also has it's own tab icon: Frederick Johnson. Find him on Soundcloud lmao
 
-v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.3 hints in the code, just saying... (this update changed/added 36 files)
+v1.1.1: New warning when attempting to go to Dotty's page (for people with epilepsy). Also updated license. You may find some 1.4 hints in the code, just saying... (this update changed/added 36 files)
 
 v1.1.2: I actually need a list lmao
 
@@ -85,4 +85,13 @@ v1.2.2: List again
 
 v1.2.3: Fixed nothing, just deleted package-lock.json
 
-v1.2.4 (LATEST): Updated LICENSE.txt, it's now marked by Github as the MIT License instead of "Other"
+v1.2.4: Updated LICENSE.txt, it's now marked by Github as the MIT License instead of "Other"
+
+v1.3 (LATEST):
+
+1. New member: Giselle
+2. On Dotty's popup, enabling "Don't Show Me Again" then clicking cancel no longer saves your decision
+3. Right clicking Dotty's picture now disables the popup
+4. Added comments to dottyPopup.js and updater.js
+5. jQuery is now the compressed, production version
+6. Delayed merch even further! Idk if it'll ever be released tbh (who cares tho)

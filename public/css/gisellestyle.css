@@ -1,14 +1,10 @@
 body {
-    background-color: hsl(0, 0%, 75%);
+    background-color: hsl(287, 55%, 55%);
     font-family: 'Fredoka', 'Montserrat', sans-serif;
 }
 
 span {
     font-weight: 700;
-    cursor: help;
-}
-
-.helpCursor {
     cursor: help;
 }
 
